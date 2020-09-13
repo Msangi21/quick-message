@@ -1,0 +1,28 @@
+{
+    "name": "gentech/bulk-sms",
+    "description": "Laravel package for sending single and bulk messages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Al-Amin Msangi",
+            "email": "alaminhamadi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GenTech\\QuickMessage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GenTech\\QuickMessage\\QuickMessageServiceProvider"
+            ]
+        }
+    }
+}
